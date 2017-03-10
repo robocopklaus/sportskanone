@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alert.Button.Cancel.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Schließen</string>
+	</dict>
+	<key>Error.Default.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Och nö... 🙈</string>
+	</dict>
+	<key>SignUp.IntroLabel.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Hi,</string>
+	</dict>
+	<key>SignUp.Username.Placeholder</key>
+	<dict>
+		<key>value</key>
+		<string>Name</string>
+	</dict>
+	<key>SignUp.Intro.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Du willst den Kalorien den Kampf ansagen oder einfach nur Deine Freunde herausfordern? Zeige es ihnen und werde Sportskanone!</string>
+	</dict>
+	<key>SignUp.Button.Submit.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Los geht&apos;s</string>
+	</dict>
+	<key>SignUp.Loading.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Anmelden...</string>
+	</dict>
+	<key>Health.Access.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Miss Dich mit Freunden</string>
+	</dict>
+	<key>Health.Access.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Die App benötigt Zugriff auf Deine Aktivitätsdaten, damit Du Dich mit Deinen Freunden messen kannst. Gib dazu einfach im nächsten Schritt Dein Einverständnis.</string>
+	</dict>
+	<key>Health.Access.Button.Continue.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Zugriff erlauben</string>
+	</dict>
+	<key>Health.DataSync.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Synchronisiere Deiner Daten...</string>
+	</dict>
+	<key>Health.DataSync.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Habe ein wenig Geduld. Die App synchronisiert Deine Aktivitätsdaten, damit Du Deinen Freunden zeigen kannst, wer Sportskanone wird.</string>
+	</dict>
+	<key>Notification.Permission.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Verpasse nichts</string>
+	</dict>
+	<key>Notification.Permission.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Bleib immer auf dem Laufenden, wenn Deine Freunde aktiv sind. Sobald bei Dir die Kalorien purzeln, werden andere benachrichtigt.</string>
+	</dict>
+	<key>Notification.Permission.Button.Continue.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Benachrichtige mich</string>
+	</dict>
+	<key>Ranking.TabBarItem.Title</key>
+	<dict>
+		<key>value</key>
+		<string></string>
+	</dict>
+	<key>Ranking.LastUpdate.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Aktualisiert:</string>
+	</dict>
+	<key>Ranking.AverageCalories.Text</key>
+	<dict>
+		<key>value</key>
+		<string>⌀</string>
+	</dict>
+</dict>
+</plist>

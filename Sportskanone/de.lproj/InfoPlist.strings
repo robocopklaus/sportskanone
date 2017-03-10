@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Sportskanone
+
+  Created by Fabian Pahl on 31.03.17.
+  Copyright © 2017 21st digital GmbH. All rights reserved.
+*/
+
+"NSHealthShareUsageDescription" = "Damit Du Dich mit Deinen Freunden messen kannst, benötigt die App Zugriff auf Deine Gesundheitsdaten.";

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alert.Button.Cancel.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Dismiss</string>
+	</dict>
+	<key>Error.Default.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Oh no... 🙈</string>
+	</dict>
+	<key>SignUp.IntroLabel.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Hi,</string>
+	</dict>
+	<key>SignUp.Username.Placeholder</key>
+	<dict>
+		<key>value</key>
+		<string>Name</string>
+	</dict>
+	<key>SignUp.Intro.Text</key>
+	<dict>
+		<key>value</key>
+		<string>You want to burn some calories or just want to challenge your friends? Show them what you got and kick some ass!</string>
+	</dict>
+	<key>SignUp.Button.Submit.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Let&apos;s go</string>
+	</dict>
+	<key>SignUp.Loading.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Signing up</string>
+	</dict>
+	<key>Health.Access.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Compete with your friends</string>
+	</dict>
+	<key>Health.Access.Text</key>
+	<dict>
+		<key>value</key>
+		<string>In order to compete with your friends, this app needs access to your activity data. Let your friends know what a sporting ace you are.</string>
+	</dict>
+	<key>Health.Access.Button.Continue.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Grant access</string>
+	</dict>
+	<key>Health.DataSync.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Syncing your activities...</string>
+	</dict>
+	<key>Health.DataSync.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Please wait while the app is fetching your health data so you can compete with your friends.</string>
+	</dict>
+	<key>Notification.Permission.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Get notified</string>
+	</dict>
+	<key>Notification.Permission.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Stay up to date with your friends&apos; activities. Your friends will get notified too whenever you burn calories.</string>
+	</dict>
+	<key>Notification.Permission.Button.Continue.Title</key>
+	<dict>
+		<key>value</key>
+		<string>Keep me up to date</string>
+	</dict>
+	<key>Ranking.TabBarItem.Title</key>
+	<dict>
+		<key>value</key>
+		<string></string>
+	</dict>
+	<key>Ranking.LastUpdate.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Last updated:</string>
+	</dict>
+	<key>Ranking.AverageCalories.Text</key>
+	<dict>
+		<key>value</key>
+		<string>Average:</string>
+	</dict>
+</dict>
+</plist>
