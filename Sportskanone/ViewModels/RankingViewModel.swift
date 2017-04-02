@@ -49,6 +49,9 @@ final class RankingViewModel<Store: StoreType> {
                           }
                       }
                       .collect()
+                      .map { $0.sorted(by: { firstTuple, secondTuple in
+                        return firstTuple.0.activeEnergyBurned > secondTuple.0.activeEnergyBurned
+                      })}
               )
     }
 

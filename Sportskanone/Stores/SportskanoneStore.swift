@@ -195,13 +195,10 @@ private extension SportskanoneStore {
                 .filter { $0 }
                 .on(value: { _ in
                   let query = HKObserverQuery(sampleType: sampleType, predicate: nil) { _, completionHandler, _ in
-                    print("New data arrived for \(sampleType)")
                     switch sampleType {
                     case HKQuantityType.quantityType(forIdentifier: .activeEnergyBurned)!:
-                      print("Fetching new data...")
                       let now = Date()
                       self.syncDailyActiveCalorieStatistics(for: user, startDate: now.dayBefore(), endDate: now)
-                        .logEvents()
                         .start { _ in
                           completionHandler()
                         }
