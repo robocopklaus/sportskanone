@@ -43,7 +43,6 @@ extension AppDelegate: UIApplicationDelegate {
     // Hockey
     let hockeyManager = BITHockeyManager.shared()
     hockeyManager.configure(withIdentifier: Secrets.Hockey.applicationID)
-    hockeyManager.updateManager.isShowingDirectInstallOption = true
     hockeyManager.crashManager.crashManagerStatus = .autoSend
     hockeyManager.start()
     

@@ -55,7 +55,7 @@
 	<key>Health.DataSync.Title</key>
 	<dict>
 		<key>value</key>
-		<string>Synchronisiere Deiner Daten...</string>
+		<string>Synchronisiere Deine Daten...</string>
 	</dict>
 	<key>Health.DataSync.Text</key>
 	<dict>
