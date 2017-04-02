@@ -7,3 +7,4 @@
 */
 
 "NSHealthShareUsageDescription" = "Damit Du Dich mit Deinen Freunden messen kannst, benötigt die App Zugriff auf Deine Gesundheitsdaten.";
+"NSPhotoLibraryUsageDescription" = "HockeyApp requirement";

@@ -7,3 +7,4 @@
 */
 
 "NSHealthShareUsageDescription" = "In order to compete with your friends, this app needs access to your health data.";
+"NSPhotoLibraryUsageDescription" = "HockeyApp requirement";

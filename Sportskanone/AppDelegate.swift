@@ -12,7 +12,7 @@ import ReactiveSwift
 import ReactiveCocoa
 import Result
 import Parse
-import HockeySDK
+import TestFairySDK
 
 @UIApplicationMain
 final class AppDelegate: UIResponder {
@@ -40,11 +40,8 @@ extension AppDelegate: UIApplicationDelegate {
     })
     PFActivitySummary.registerSubclass()
     
-    // Hockey
-    let hockeyManager = BITHockeyManager.shared()
-    hockeyManager.configure(withIdentifier: Secrets.Hockey.applicationID)
-    hockeyManager.crashManager.crashManagerStatus = .autoSend
-    hockeyManager.start()
+    // Testfairy
+    TestFairy.begin(Secrets.TestFairy.appToken)
     
     // Model
     let coordinatorViewModel = CoordinatorViewModel(store: store)

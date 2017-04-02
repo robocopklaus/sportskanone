@@ -39,10 +39,9 @@ platform :ios do
     )
     gym
     changelog_from_git_commits(merge_commit_filtering: "exclude_merges")
-    hockey(
-      strategy: "replace",
-      api_token: ENV["HOCKEYAPP_API_TOKEN"],
-      notes: last_git_commit[:message] + "\n*Uploaded automatically via fastlane*"
+    testfairy(
+      api_key: ENV["TESTFAIRY_API_KEY"],
+      comment: last_git_commit[:message] + "\n*Uploaded automatically via fastlane*"
     )
   end
 

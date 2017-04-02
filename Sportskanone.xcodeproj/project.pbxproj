@@ -30,10 +30,10 @@
 		0580F0691E75CA3A005CC977 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0580F0681E75CA3A005CC977 /* UserNotifications.framework */; };
 		0582A9661E82F99200093792 /* UserNotificationsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0582A9651E82F99200093792 /* UserNotificationsExtensions.swift */; };
 		0582A9681E83046900093792 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0582A9671E83046900093792 /* FoundationExtensions.swift */; };
-		05A259541E8DA00200AEF568 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A259531E8DA00200AEF568 /* HockeySDK.framework */; };
 		05B60A771E8EFE480000E088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05B60A791E8EFE480000E088 /* InfoPlist.strings */; };
 		05B60A7E1E8F36020000E088 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B60A7D1E8F36020000E088 /* UserType.swift */; };
 		05B60A801E8F363C0000E088 /* PFUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B60A7F1E8F363C0000E088 /* PFUser.swift */; };
+		05BF086B1E919E6900F5304B /* TestFairySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF086A1E919E6900F5304B /* TestFairySDK.framework */; };
 		05D444CB1E64ABC000A2E466 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D444C51E64ABC000A2E466 /* Bolts.framework */; };
 		05D444CD1E64ABC000A2E466 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D444C71E64ABC000A2E466 /* Parse.framework */; };
 		05D444CE1E64ABC000A2E466 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D444C81E64ABC000A2E466 /* ReactiveCocoa.framework */; };
@@ -72,13 +72,13 @@
 		0582A9671E83046900093792 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 		058A2F7D1E88EB7300F5C616 /* HealthAccessViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthAccessViewModel.swift; sourceTree = "<group>"; };
 		058A2F7F1E88EBAA00F5C616 /* HealthAccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthAccessViewController.swift; sourceTree = "<group>"; };
-		05A259531E8DA00200AEF568 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = Carthage/Build/iOS/HockeySDK.framework; sourceTree = "<group>"; };
 		05A259551E8DA9DE00AEF568 /* HealthDataSyncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataSyncViewController.swift; sourceTree = "<group>"; };
 		05A259571E8DAAAF00AEF568 /* HealthDataSyncViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataSyncViewModel.swift; sourceTree = "<group>"; };
 		05B60A781E8EFE480000E088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05B60A7A1E8F00070000E088 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05B60A7D1E8F36020000E088 /* UserType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
 		05B60A7F1E8F363C0000E088 /* PFUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PFUser.swift; sourceTree = "<group>"; };
+		05BF086A1E919E6900F5304B /* TestFairySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestFairySDK.framework; path = Carthage/Build/iOS/TestFairySDK.framework; sourceTree = "<group>"; };
 		05D444C51E64ABC000A2E466 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
 		05D444C71E64ABC000A2E466 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Carthage/Build/iOS/Parse.framework; sourceTree = "<group>"; };
 		05D444C81E64ABC000A2E466 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A259541E8DA00200AEF568 /* HockeySDK.framework in Frameworks */,
+				05BF086B1E919E6900F5304B /* TestFairySDK.framework in Frameworks */,
 				0580F0691E75CA3A005CC977 /* UserNotifications.framework in Frameworks */,
 				05D444CB1E64ABC000A2E466 /* Bolts.framework in Frameworks */,
 				05D444CD1E64ABC000A2E466 /* Parse.framework in Frameworks */,
@@ -227,11 +227,11 @@
 			children = (
 				05D444C51E64ABC000A2E466 /* Bolts.framework */,
 				05DCFA071E5E1C9A00AB697A /* HealthKit.framework */,
-				05A259531E8DA00200AEF568 /* HockeySDK.framework */,
 				05D444C71E64ABC000A2E466 /* Parse.framework */,
 				05D444C81E64ABC000A2E466 /* ReactiveCocoa.framework */,
 				05D444C91E64ABC000A2E466 /* ReactiveSwift.framework */,
 				05D444CA1E64ABC000A2E466 /* Result.framework */,
+				05BF086A1E919E6900F5304B /* TestFairySDK.framework */,
 				0580F0681E75CA3A005CC977 /* UserNotifications.framework */,
 			);
 			name = Frameworks;
@@ -329,7 +329,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/HockeySDK.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TestFairySDK.framework",
 			);
 			name = "Carthage: Copy Frameworks";
 			outputPaths = (
@@ -461,7 +461,7 @@
 				CODE_SIGN_ENTITLEMENTS = Sportskanone/Sportskanone.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -548,7 +548,7 @@
 				CODE_SIGN_ENTITLEMENTS = Sportskanone/Sportskanone.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -604,7 +604,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = digital.21st.sportskanone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "77cc5e29-655a-4513-b343-06530f2a524a";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development digital.21st.sportskanone";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -626,7 +625,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = digital.21st.sportskanone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "baf0f40b-96f0-42ee-8a81-eccfee91eb48";
 				PROVISIONING_PROFILE_SPECIFIER = "match InHouse digital.21st.sportskanone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
